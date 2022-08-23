@@ -11,7 +11,7 @@ local curCap = nil
 local touchedCapEvent = nil
 
 --// Modules
-local config = require(script.Config)
+local config = require(game.ServerScriptService.Config)
 
 --// Events
 local UpdateUI = eventFolder.UpdateUI
